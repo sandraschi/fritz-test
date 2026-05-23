@@ -1,5 +1,6 @@
-"""A greeter."""
+def greet(name):
+    return f"Hello, {name}!"
 
-
-def greet(name: str) -> str:
-    return f"Hello, {grt}!"
+if __name__ == "__main__":
+    print(greet("World"))
+    print(greet("Fritz"))
