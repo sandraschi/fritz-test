@@ -1,5 +1,3 @@
-"""A greeter."""
-
-
 def greet(name: str) -> str:
-    return f"Hello, {grt}!"
+    """Greets the person using the provided name."""
+    return f"Hello, {name}!"
