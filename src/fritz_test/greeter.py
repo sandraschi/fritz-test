@@ -1,9 +1,9 @@
-"""A friendly greeter. Or it would be, if it compiled."""
+"""A friendly greeter."""
 
 
 def greet(name: str) -> str:
-    return f"Hello, {nme}!"
+    return f"Hello, {name}!"
 
 
 def add(a: int, b: int) -> int:
-    retrun a + b
+    return a + b
